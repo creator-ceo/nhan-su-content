@@ -2,30 +2,29 @@
 
 > ⚠️ **File này là chỗ DUY NHẤT chứa luật mindmap.** Sửa luật thì sửa ở đây.
 
-Đây là loại việc **khác hẳn** mọi việc còn lại trong xưởng: nó **chạy lệnh ngoài** và **giao file HTML**, không giao chữ để bạn copy đi đăng. Chốt 2026-08-03 sau khi Đoàn so bộ thử.
+Đây là loại việc **khác hẳn** mọi việc còn lại của vai này: nó **chạy lệnh ngoài** và **giao file HTML**, không giao chữ để bạn copy đi đăng.
 
 ### Chạy gì
 
-1. **Lấy nguyên liệu.** Ba đường, khai `batMot` nên **phải có ít nhất một**, và có thể có nhiều hơn một cùng lúc:
+1. **Lấy nguyên liệu.** Ba đường, **phải có ít nhất một**, và có thể có nhiều hơn một cùng lúc:
 
-   | Trong brief | Làm gì |
+   | Người dùng đưa gì | Làm gì |
    |---|---|
-   | `trangNguon: <đường dẫn>` | **Đọc trọn** `wiki/<trangNguon>.md`. Không tóm tắt từ trí nhớ, kể cả khi thấy mình vừa đọc trang đó trong phiên này |
-   | `## Bài từ Notion` | Mở trang Notion đó, lấy nội dung |
-   | `## Bài hiện có` | Dùng thẳng chữ đã dán |
+   | **một trang trong bộ não** | **Đọc trọn** `wiki/<trang>.md`. Không tóm tắt từ trí nhớ, kể cả khi thấy mình vừa đọc trang đó trong phiên này |
+   | **một link Notion / trang ngoài** | Mở ra, lấy nội dung |
+   | **một bài dán thẳng vào** | Dùng thẳng chữ đã dán |
 
-   Server đã kiểm `trangNguon` trỏ vào file có thật trước khi ghi brief — nên **đừng tự sửa đường dẫn** nếu thấy nó lạ; nó đã qua cửa rồi.
+   ⚠️ **Trang trỏ hụt thì DỪNG và hỏi lại, đừng đoán trang gần giống.** Đọc trượt file rồi tự bù bằng trí nhớ là ra một bản đồ trông rất hợp lý dựng từ hiểu biết chung — không phải từ bộ não của người dùng. Đó là kiểu sai khó bắt nhất ở đây, vì thành phẩm không có chỗ nào trông sai.
 
-   ⚡ **`mucChon: <tiêu đề ##>` (tuỳ chọn) — RÀNG BUỘC CỨNG, đọc trước khi rút gọn.**
-   Thêm 2026-08-23 sau khi bạn báo trang gộp nhiều framework (vd `frameworks-core.md`
-   gộp 5 cái) mà không có cách nào chọn đúng 1 mục — trước đó chỉ gõ tay vào `mucTieu`
-   rồi skill tự đoán, không chắc trúng. Có dòng này thì **CHỈ lấy đúng mục đó** của
-   `trangNguon`: từ dòng `## <mucChon>` (khớp nguyên văn) tới heading `##` kế tiếp,
-   **bỏ hẳn phần còn lại của trang** — không đọc thêm ngữ cảnh từ mục khác trừ khi
-   trang tự dẫn chiếu chéo. Không tìm thấy heading khớp nguyên văn thì **dừng và báo**,
-   đừng đoán mục gần giống. `mucChon` thắng nếu nó và `mucTieu` chỉ tới hai hướng khác
-   nhau — `mucTieu` lúc đó chỉ còn vai trò chọn *góc nhìn* trong đúng mục đã khoanh.
-   Brief không có dòng này → hành vi cũ: đọc cả `trangNguon`, tự rút theo `mucTieu`.
+   ⚡ **Người dùng khoanh đúng MỘT mục thì đó là ràng buộc cứng, đọc trước khi rút gọn.**
+   Trang trong bộ não hay gộp nhiều khung vào một chỗ — một trang `frameworks-core.md`
+   gộp năm khung là chuyện thường. Nghe *"vẽ mindmap trang này, phần SCORE thôi"* thì
+   **CHỈ lấy đúng mục đó**: từ dòng `## <tên mục>` (khớp nguyên văn) tới heading `##`
+   kế tiếp, **bỏ hẳn phần còn lại của trang** — không kéo thêm ngữ cảnh từ mục khác trừ
+   khi trang tự dẫn chiếu chéo. Không tìm thấy heading khớp nguyên văn thì **dừng và
+   hỏi lại**, đừng đoán mục gần giống. Mục đã khoanh **thắng** nếu nó và mục tiêu bài
+   chỉ tới hai hướng khác nhau — lúc đó mục tiêu chỉ còn vai trò chọn *góc nhìn* bên
+   trong phần đã khoanh. Không khoanh gì → đọc cả trang, tự rút theo mục tiêu.
 
    ⚠️ **Nguồn ngoài wiki đi kèm một ràng buộc.** Nội dung từ Notion hay bài dán **chưa qua `/nap-kho`**, tức chưa có ai soi trùng, chưa đối chiếu giá trị cốt lõi. Dựng mindmap từ nó thì được, nhưng **nói rõ trong `ket-qua.md`** rằng bản đồ này dựng từ nguyên liệu chưa nạp vào bộ não — và nếu nội dung đáng giữ thì **đề xuất nạp qua `/nap-kho`**, đừng tự ghi vào `wiki/`.
 2. **Viết `mindmap-nguon.md`** — markdown thuần, phân cấp bằng `#` / `##` / `###` rồi tới gạch đầu dòng. Frontmatter YAML khai màu và độ mở:
@@ -43,10 +42,10 @@ markmap:
 ---
 ```
 
-3. **Chốt tên file đầu ra `<ten-file>.html`** — KHÔNG dùng cứng `mindmap.html`. Đoàn chốt
-   2026-08-23: *"cái file ở trong kho ko dc đặt tên, nó chỉ là mindmap, như vậy ko tiện
-   lắm"* — kéo nhiều file ra khỏi `runs/` (gửi Zalo, để chung một thư mục) thì toàn bộ
-   trùng tên `mindmap.html`, không phân biệt được cái nào là cái nào.
+3. **Chốt tên file đầu ra `<ten-file>.html`** — KHÔNG dùng cứng `mindmap.html`. Lý do
+   chỉ lộ ra lúc dùng thật: kéo vài file ra khỏi thư mục lượt chạy để gửi cho người khác
+   hay để chung một chỗ, thì tất cả cùng tên `mindmap.html` và không phân biệt được cái
+   nào là cái nào.
 
    Suy `<ten-file>` từ chính `title` đã viết ở bước 2 — không nghĩ ra tên thứ hai:
    viết thường, bỏ dấu tiếng Việt, thay khoảng trắng/ký tự lạ bằng `-`, cắt còn khoảng

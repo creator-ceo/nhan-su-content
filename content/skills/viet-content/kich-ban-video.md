@@ -30,28 +30,32 @@
 **Mạch dài — 3P:** **Promise** (người xem nhận được gì, nói ngay đầu) · **Proof** (số liệu, chuyện cá nhân, testimonial, case — để không thành clickbait) · **Plan** (bản đồ nội dung kiểu "5 bước", để người xem không lạc). Nguồn: `wiki/learnings/` của bạn *(nếu đã dựng)* §2.
 Video dài phải **chia chương và đặt tên chương**, vì nó còn là nguyên liệu cắt lại — *"một video dài cắt 10 mảnh"* (cùng file, §3). Chương không rõ thì không cắt được.
 
-### Nguồn lực sản xuất — chỗ dễ bịa nhất trong cả xưởng
+### Nguồn lực sản xuất — chỗ dễ bịa nhất trong cả vai này
 
 Đọc theo đúng thứ tự, dừng ở chỗ đầu tiên có dữ liệu:
 
 1. **`wiki/video-production-setup.md`** — ⚡ **BẮT BUỘC ĐỌC nếu bạn đã dựng trang này.** Nó ghi nguồn lực quay thật của bạn: máy quay · mic · ổn định hình · đèn · bối cảnh · nhân vật · B-roll · hậu kỳ. **Chưa có trang này thì HỎI, đừng suy ra thiết bị** — rồi đề nghị nạp câu trả lời vào bộ não qua `/nap-kho`.
-2. **Ô "Nguồn lực quay lần này"** (`nguonLuc`) trong `brief.md` — chỉ dùng để **ghi đè** cho lượt này (hôm nay có người cầm máy, hôm nay quay chỗ khác…). Trống là bình thường, nghĩa là dùng bản mặc định ở trang trên.
-3. Thứ nào **cả hai đều không có** → ghi `[cần bổ sung: ...]`.
+2. **Lời bạn nói trong chính lượt này** — chỉ để **ghi đè** cho hôm nay (hôm nay có người cầm máy, hôm nay quay chỗ khác…). Không nói gì là bình thường, nghĩa là dùng bản mặc định ở trang trên.
+3. Thứ nào **cả hai đều không có** → ghi `[cần bổ sung: ...]`, đừng lấp bằng phỏng đoán.
 
-**Bốn ràng buộc từ trang đó chi phối mạnh nhất — thuộc trước khi viết shot nào:**
+🚫 **Tuyệt đối không suy ra thiết bị.** Không được viết "quay bằng iPhone" vì *"chắc ai cũng có iPhone"*. Cái giá rất cụ thể: gợi ý dolly shot cho người không có gimbal, gợi ý hai máy phỏng vấn cho người quay một mình — ra một bản **không quay được**, mà đọc thì vẫn rất xuôi tai. Bản không quay được thì người ta không nói là bản sai, họ chỉ lặng lẽ không quay.
 
-| | |
+⚠️ **Trang nguồn lực đã nạp KHÔNG có nghĩa là đã đầy đủ.** Mấy mục hay còn trống nhất: kho B-roll nằm ở đâu · quay được bao lâu mỗi buổi · trang phục/nhận diện. Gặp thì ghi `[cần bổ sung: ...]` và nêu ở *"Đề xuất cho bộ não"*.
+
+### Bốn ràng buộc hay chi phối nhất — ví dụ có thật, không phải luật của bạn
+
+Đây là bốn dòng rút từ `video-production-setup.md` **của Tô Hải Đoàn**, để bạn thấy một trang nguồn lực đã điền tử tế thì đẻ ra ràng buộc kiểu gì. **Đừng áp lên bạn** — bạn có thể có ê-kíp hai người, có gimbal dùng thật, hậu kỳ có motion graphic.
+
+| Ràng buộc *(của Đoàn)* | Nó chặn shot nào |
 |---|---|
-| **Quay một mình** | Mọi shot phải tự đặt máy rồi vào khung. Không có shot cần người thứ hai điều khiển máy. |
-| **Gimbal RS4 Mini coi như KHÔNG CÓ** | Có trong nhà nhưng *"rất ít dùng vì 1 mình"*. Shot động mượt: chỉ Pocket 3. Shot đi theo nhân vật: không có. |
-| **Mặc định MỘT góc máy** | Có ba máy không nghĩa là quay ba góc. Không ghi "cắt sang góc 2" trừ khi brief nói rõ có dùng Pocket 3. |
-| **Hậu kỳ đơn giản** | Cắt ghép + phụ đề chữ chạy + hiệu ứng đơn giản. Không đề xuất motion graphic, animation, đồ hoạ 3D. |
+| Quay một mình | Mọi shot phải tự đặt máy rồi vào khung. Không shot nào cần người thứ hai điều khiển máy |
+| Có gimbal nhưng *"rất ít dùng vì 1 mình"* → coi như không có | Shot động mượt: chỉ máy cầm tay chống rung sẵn. Shot đi theo nhân vật: không có |
+| Ba máy, nhưng mặc định **một góc** | Có ba máy không nghĩa là quay ba góc. Không ghi "cắt sang góc 2" trừ khi lượt này nói rõ dùng máy thứ hai |
+| Hậu kỳ đơn giản: cắt ghép + phụ đề chạy | Không đề xuất motion graphic, animation, đồ hoạ 3D |
 
-Cộng một dòng bắt buộc mở đầu shotlist: **"dọn hậu cảnh trước khi quay"** — phòng không ở trạng thái quay được ngay.
+📌 **Cái đáng học ở bảng này là CỘT PHẢI, không phải cột trái.** Mỗi dòng nguồn lực phải dịch được thành *"vì thế shot này không viết"*. Trang nguồn lực chỉ liệt kê thiết bị mà không dịch ra ràng buộc thì nó là danh sách mua sắm, không phải ràng buộc sản xuất.
 
-🚫 **Tuyệt đối không suy ra thiết bị.** Không được viết "quay bằng iPhone" vì *"chắc ai cũng có iPhone"*. `video-production-brief-worksheet.md` nói thẳng cái giá: gợi ý dolly shot khi không có gimbal, gợi ý 2 máy phỏng vấn khi chỉ có 1 người quay — ra một bản lý thuyết **không quay được**, mà đọc thì vẫn rất xuôi tai.
-
-Ba mục trong trang đó **cố ý còn trống** (kho B-roll nằm ở đâu · thời gian quay mỗi buổi · trang phục/nhận diện). Gặp thì ghi `[cần bổ sung: ...]` và nêu ở *"Đề xuất cho bộ não"* — **đừng đoán, và đừng coi trang đã nạp là đã đầy đủ.**
+Cộng một dòng bắt buộc mở đầu mọi shotlist: **"dọn hậu cảnh trước khi quay"** — chỗ quay gần như không bao giờ ở trạng thái quay được ngay.
 
 ### Shotlist — chỉ chạy khi brief bật
 

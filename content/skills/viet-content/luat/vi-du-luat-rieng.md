@@ -3,6 +3,8 @@
 > ⚠️ **File này KHÔNG phải luật bạn phải theo.** Nó là **bản của Đoàn**, phát kèm làm ví dụ mẫu, để bạn thấy một bộ luật riêng trông ra sao rồi dựng bản của mình.
 >
 > Luật bạn **phải** theo nằm ở `luat/loi-nghe.md` — 10 luật lõi nghề, áp cho mọi người viết bất kể ngách. File này là tầng khác: **giọng riêng**, và giọng thì không ai áp cho ai được.
+>
+> Các liên kết dạng `[[tên-trang]]` trỏ tới những trang trong bộ não **của Đoàn**. Trang nào bộ não của bạn chưa có thì **bỏ qua liên kết đó** — đừng đoán nội dung của nó, và đừng bịa ra cho đủ.
 
 ## Đọc file này thế nào
 
