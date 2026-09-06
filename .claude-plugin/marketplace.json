@@ -1,0 +1,20 @@
+{
+  "name": "nhan-su-content",
+  "owner": {
+    "name": "Tô Hải Đoàn",
+    "url": "https://github.com/creator-ceo"
+  },
+  "metadata": {
+    "description": "Vai Content trong đội nhân sự A.I của Tô Hải Đoàn — cài rời, chạy trên bộ não thứ 2 sẵn có",
+    "version": "1.0.0",
+    "repository": "https://github.com/creator-ceo/nhan-su-content"
+  },
+  "plugins": [
+    {
+      "name": "content",
+      "source": "./content",
+      "strict": false,
+      "description": "Vai Content: viết bài đúng giọng của bạn, 8 kiểu hook, 7 khung viết, 4 tầng dấu hiệu văn AI, kịch bản video, mindmap. Có cửa vào kiểm kho trước khi viết — kho trống thì nó không viết bừa mà chỉ đúng một việc cần làm trước."
+    }
+  ]
+}
