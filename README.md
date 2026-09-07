@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.3.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.4.0` · 2026-09-07 · giấy phép MIT
 
 ---
 
