@@ -21,10 +21,64 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 | 8 kiểu hook (`luat/hook.md`) | Khách hàng (`target-customer.md`) |
 | 4 tầng dấu hiệu văn AI (`luat/dau-hieu-ai-viet.md`) | Quan điểm ngược dòng (`contrarian-beliefs.md`) |
 | Ví dụ một bộ luật riêng (`luat/vi-du-luat-rieng.md`) | Giá trị, nguyên tắc (`values-and-principles.md`) |
+| **9 khuôn kho** (`khuon/`) — cấu trúc từng trang | Nội dung thật trong 9 kho đó |
 
 **Vì sao tách như vậy:** luật nghề thì ai viết cũng dùng chung, nên nó đi kèm skill. Còn giọng và chuyện là **của riêng bạn** và bạn sẽ sửa liên tục — chép chúng vào skill là có hai bản, và bản trong skill sẽ âm thầm lạc hậu.
 
+⚡ **`khuon/` là KHUÔN, không phải nội dung.** Vai này mang theo cấu trúc của 9 trang nó cần, rồi dựng chúng trong `wiki/` của bạn ở lần chạy đầu — xem mục ngay dưới. Bộ khung nền **cố ý không tạo sẵn** chúng, kể cả file rỗng.
+
 🚫 **Đừng viết bài bằng giọng Tô Hải Đoàn.** Skill này dạy *nghề*, không phát *giọng*. Giọng của bạn nằm ở `wiki/voice-profile.md` — chưa có thì đi qua Cửa vào ngay dưới đây.
+
+---
+
+## 🏗 LẦN ĐẦU CHẠY — dựng kho của vai này
+
+> Chạy **đúng một lần**, ngay lượt đầu sau khi cài. Nhận ra bằng: `wiki/voice-profile.md` chưa tồn tại.
+>
+> Nền (`second-brain-file-ai`) **cố ý không tạo sẵn** mấy trang này, kể cả file rỗng — vì nó không dựng nổi chúng, và một vỏ rỗng thì vai này vẫn phải mở ra đọc mới biết có gì bên trong. Nên việc dựng là của vai này.
+
+### Nói trước bạn sắp mất bao lâu, rồi mới hỏi
+
+> *"Tôi cần dựng kho riêng cho việc viết. Có hai tầng: một tầng làm một lần rồi dùng mãi, một tầng bạn nạp thêm dần. Tầng một mất khoảng 20–30 phút nếu bạn có sẵn bài cũ. Bắt đầu luôn, hay để lát nữa?"*
+
+Họ nói để lát nữa thì **vẫn viết được** — rơi xuống Cửa vào bên dưới, chạy ở mức 🔴 hoặc 🟡. Đừng chặn.
+
+### Tầng 1 — nền của vai, làm MỘT LẦN
+
+| Trang | Hỏi gì | Khuôn |
+|---|---|---|
+| `voice-profile` | *"Dán vào đây 5–10 bài bạn đã đăng thật."* Rút: đại từ · tông giọng · kiểu mở bài · câu cửa miệng · ẩn dụ · cách dùng số | `khuon/voice-profile.md` |
+| `video-production-setup` | Chỉ hỏi khi họ nói có làm video. Máy · mic · ổn định hình · đèn · bối cảnh · ai cầm máy · hậu kỳ | `khuon/video-production-setup.md` |
+
+🚫 **`voice-profile` KHÔNG dựng bằng cách hỏi suông.** Cái người ta *nghĩ* mình viết khác hẳn cái họ *thật sự* viết — hỏi "giọng bạn thế nào" thì nhận về một bản mô tả lý tưởng hoá, và mọi bài sau đó sẽ sai giọng mà không ai biết vì sao. Chưa có bài thật thì **để trang đó chưa tồn tại**, đừng dựng bản tưởng tượng.
+
+⚠️ **Mỗi dòng thiết bị phải dịch được thành *"vì thế shot này không viết"*.** Danh sách thiết bị không kèm ràng buộc là danh sách mua sắm, không dùng được để viết kịch bản.
+
+### Tầng 2 — kho biến thiên, nạp thêm mãi
+
+Bảy kho này **không bao giờ xong** — chúng dày lên theo thời gian. Lần đầu chỉ cần **mồi**, đừng cố lấp đầy.
+
+| Kho | Mồi bằng gì | Khuôn |
+|---|---|---|
+| `experiences-library` | 3–5 chuyện thật, ngôi thứ nhất, đủ khuôn 5 bước | `khuon/experiences-library.md` |
+| `customer-wins` | Lời chứng thực + số liệu kết quả, **giữ nguyên văn** | `khuon/customer-wins.md` |
+| `quoted-authority` | Trích dẫn tác giả/nghiên cứu, **bắt buộc có nguồn tra lại được** | `khuon/quoted-authority.md` |
+| `models/<tên>` | 1–2 người họ đang học — mổ 5–10 bài thật của người đó | `khuon/models.md` |
+
+⭐ **Hình mẫu khác loại với sáu kho kia: nó cho CÁCH KỂ, không cho chất liệu.** Hỏi thẳng *"Bạn đang học cách làm nội dung của ai? Cho tôi 1–2 cái tên hoặc link."* rồi mổ ngay trong lượt — bóc **bốn thứ**: mạch mở bài họ hay dùng · cách họ chứng minh · câu bắc cầu từ hook sang thân · thứ họ **không bao giờ** viết.
+
+⚠️ **Bóc từ bài THẬT, đừng bóc từ trí nhớ về người đó.** Không có bài trong tay thì nói thẳng là chưa mổ được — một bản phân tích nghe hợp lý dựng từ trí nhớ sẽ nằm trong `wiki/models/` như thể là dữ liệu thật, và không có gì phân biệt được.
+
+⚠️ **Chưa có hình mẫu KHÔNG chặn việc viết.** Thiếu nó thì mạch bài lấy từ **7 khung mặc định** thay vì từ người đang học — bài vẫn ra. Nhưng phải hỏi ở lần đầu, đừng để người ta dùng cả tháng rồi mới biết có tầng này.
+| `hook-library` | Trống lúc đầu là đúng. Nó lấp ngược từ hook đã đăng + số thật | `khuon/hook-library.md` |
+| `content-library` | Bài đã đăng, gom dần | `khuon/content-library.md` |
+| `audience-insights` | Comment/inbox thật của khán giả, **nguyên văn** | `khuon/audience-insights.md` |
+
+### Ba luật của bước dựng này
+
+1. ⚡ **Dựng trang nào CÓ CHẤT LIỆU THẬT, không dựng cho đủ bộ.** Họ đưa bài cũ thì dựng `voice-profile`; không có lời chứng thực nào thì **`customer-wins` chưa tồn tại**. Một trang rỗng và một trang chưa có trông khác nhau ở chỗ: trang rỗng làm Cửa vào đếm nhầm là "đã có", rồi bài ra nhạt mà không có cảnh báo nào.
+2. 🚫 **KHÔNG tự ghi vào `wiki/`.** Bộ não có đúng một đường ghi. Rút xong thì **dùng luôn trong lượt này**, rồi mời chạy `/nap-kho` để lưu thật. Khuôn trong `khuon/` là để đưa cho `/nap-kho` biết cấu trúc, không phải để tự chép vào `wiki/`.
+3. **Nạp tới đâu, viết được tới đó.** Xong Tầng 1 là viết được bài đúng giọng. Xong thêm `experiences-library` là kể được chuyện thật. Nói rõ điều này để họ biết dừng ở đâu cũng có kết quả — chứ không phải làm hết mới được dùng.
 
 ---
 
@@ -55,31 +109,11 @@ Rồi viết. Chỗ nào cần chất liệu chưa có thì để `[cần chuy�
 
 **🟢 Kho đủ — 4 trên 4.** Chạy tiếp như bình thường, không nói gì thêm.
 
-### 📥 Nạp ngay trong lượt này — đường vòng cho người mới
+### 📥 Thiếu tới đâu, nạp ngay tới đó — đừng bắt đi chỗ khác
 
-Không bắt người ta đi chỗ khác rồi quay lại. Nếu họ dán tài liệu vào ngay:
+Kho mỏng hoặc trống mà họ có tài liệu trong tay thì **rút ngay trong lượt này** rồi viết luôn, không bắt họ chạy lệnh khác rồi quay lại. Bảng *"nạp gì vào kho nào"* nằm ở mục **🏗 Lần đầu chạy** phía trên — dùng lại đúng bảng đó, đừng nhớ theo trí nhớ.
 
-| Họ dán | Rút ra | Ghi vào |
-|---|---|---|
-| 5–10 bài đã đăng thật | đại từ · tông giọng · kiểu mở bài · câu cửa miệng · ẩn dụ · cách dùng số | `voice-profile` |
-| Ghi chép buổi chia sẻ, transcript | câu chuyện ngôi thứ nhất, đủ khuôn 5 bước | `experiences-library` |
-| Lời chứng thực, số liệu kết quả | giữ **nguyên văn** trích dẫn | `customer-wins` |
-| Trích dẫn tác giả / nghiên cứu | câu + nguồn đầy đủ | `quoted-authority` |
-| **Tên / link 1–2 người bạn đang học** | mổ 5–10 bài của họ ngay trong lượt *(xem mục ⭐ dưới)* | `models/<tên>` |
-
-Rút xong thì **dùng luôn trong lượt này**, rồi mời chạy `/nap-kho` để lưu thật vào bộ não.
-
-### ⭐ Lần setup ĐẦU TIÊN phải hỏi thêm hình mẫu
-
-Bốn thứ trên là **chất liệu của bạn**. Hình mẫu là thứ thứ năm, và nó khác loại: nó cho **cách kể**, không cho chất liệu.
-
-Hỏi thẳng một câu: *"Bạn đang học cách làm nội dung của ai? Cho tôi 1–2 cái tên hoặc link."*
-
-Rồi mổ ngay trong lượt này — xin 5–10 bài của người đó, bóc ra **bốn thứ**: mạch mở bài họ hay dùng · cách họ chứng minh · câu bắc cầu từ hook sang thân · thứ họ **không bao giờ** viết. Xong thì mời `/nap-kho` lưu thành `wiki/models/<tên>.md`.
-
-⚠️ **Bóc từ bài THẬT, đừng bóc từ trí nhớ về người đó.** Không có bài trong tay thì nói là chưa mổ được, đừng dựng một bản phân tích nghe hợp lý — bản đó sẽ nằm trong `wiki/models/` như thể là dữ liệu thật.
-
-⚠️ **Chưa có hình mẫu KHÔNG chặn việc viết** — khác bốn thứ trên. Thiếu nó thì mạch bài lấy từ **7 khung mặc định** thay vì từ người mình đang học, và bài vẫn ra. Nhưng phải **hỏi ở lần setup đầu**, đừng để người ta dùng cả tháng rồi mới biết có tầng này.
+Rút xong thì **dùng luôn trong lượt này**, rồi mời chạy `/nap-kho` lưu thật.
 
 🚫 **Skill này KHÔNG tự ghi vào `wiki/`** — luật cũ, không có ngoại lệ. Bản rút ở đây sống trong lượt chạy; muốn nó thành tài sản thì phải qua `/nap-kho`.
 
