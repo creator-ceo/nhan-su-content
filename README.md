@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.8.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.8.1` · 2026-09-07 · giấy phép MIT
 
 ---
 
@@ -65,7 +65,7 @@ Nó không im lặng viết một bài trơn tru bằng trí nhớ chung chung r
 
 Đây là ca hay gặp nhất ở người mới: cài mỗi vai này, chưa clone nền. Vai **không đứng im bảo bạn đi cài nền rồi quay lại**. Nó làm ba bước:
 
-1. **Nói đúng cái giá** — chưa có nền thì `/nap-kho` không tồn tại, nên **không lưu được gì**, đóng chat là mất.
+1. **Nói đúng cái giá** — bài viết ra **vẫn lưu bình thường** vào `content/`; thứ mất là **chất liệu** bạn vừa kể, vì đường ghi vào kho (`/nap-kho`) đi kèm nền. Lần sau phải kể lại từ đầu.
 2. **Hỏi bốn thứ, mỗi lần một câu** — bài cũ *(lấy giọng)* · một chuyện thật của bạn *(lấy bằng chứng)* · khách là ai và sợ gì · niềm tin nào ngược số đông. Đúng bốn thứ cửa vào đếm, chỉ khác là chúng nằm trong hội thoại chứ không nằm trên đĩa.
 3. **Viết bài, rồi nhắc lại thứ sắp mất.**
 
