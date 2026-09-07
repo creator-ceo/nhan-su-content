@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.1.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.2.0` · 2026-09-07 · giấy phép MIT
 
 ---
 
@@ -38,12 +38,12 @@ Mở Claude Code trong thư mục vừa clone, nhắn `bắt đầu`, trả lờ
 
 Nền **cố ý không tạo sẵn** `voice-profile`, `hook-library`, `models/`… kể cả dưới dạng file rỗng — vì nó không dựng nổi chúng, và một vỏ rỗng thì vai này vẫn phải mở ra đọc mới biết bên trong có gì. Nên việc dựng thuộc về đây.
 
-Lượt đầu sau khi cài, nó hỏi bạn và dựng **9 kho**, chia hai tầng:
+Lượt đầu sau khi cài, nó hỏi bạn và dựng **10 kho**, chia hai tầng:
 
 | Tầng | Kho | Nhịp |
 |---|---|---|
 | **Nền của vai** | `voice-profile` *(rút từ 5–10 bài bạn đã đăng thật)* · `video-production-setup` | làm **một lần**, dùng mãi |
-| **Kho biến thiên** | `experiences-library` · `customer-wins` · `quoted-authority` · `models/` · `hook-library` · `content-library` · `audience-insights` | nạp thêm **mãi mãi** |
+| **Kho biến thiên** | `experiences-library` · `customer-wins` · `quoted-authority` · `models/` · `hook-library` · `content-library` · `audience-insights` · `so-lieu-chuan` | nạp thêm **mãi mãi** |
 
 ⏱ Tầng 1 mất khoảng **20–30 phút** nếu bạn có sẵn bài cũ. Chưa muốn làm thì bỏ qua được — vai vẫn chạy, chỉ là chạy ở mức cảnh báo *(xem dưới)*.
 
@@ -73,7 +73,8 @@ Nó không im lặng viết một bài trơn tru bằng trí nhớ chung chung r
 | 4 tầng dấu hiệu văn AI | Quan điểm ngược dòng (`contrarian-beliefs.md`) |
 | Khuôn kịch bản video ngắn + dài | Hình mẫu bạn đang học (`models/`) |
 | Khuôn mindmap từ một trang bộ não | Kết quả khách, lời chứng thực (`customer-wins.md`) |
-| **9 khuôn kho** (`khuon/`) — cấu trúc từng trang | Nội dung thật trong 9 kho đó |
+| Ba kiểu dùng sai con số, xếp theo độ khó bắt | Con số thành tích thật của bạn (`so-lieu-chuan.md`) |
+| **10 khuôn kho** (`khuon/`) — cấu trúc từng trang | Nội dung thật trong 10 kho đó |
 
 **Vì sao tách:** luật nghề thì ai viết cũng dùng chung nên nó đi theo plugin. Giọng và chuyện là **của riêng bạn** và bạn sẽ sửa liên tục — chép chúng vào plugin là có hai bản, rồi bản trong plugin âm thầm lạc hậu.
 

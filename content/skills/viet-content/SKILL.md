@@ -21,11 +21,11 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 | 8 kiểu hook (`luat/hook.md`) | Khách hàng (`target-customer.md`) |
 | 4 tầng dấu hiệu văn AI (`luat/dau-hieu-ai-viet.md`) | Quan điểm ngược dòng (`contrarian-beliefs.md`) |
 | Ví dụ một bộ luật riêng (`luat/vi-du-luat-rieng.md`) | Giá trị, nguyên tắc (`values-and-principles.md`) |
-| **9 khuôn kho** (`khuon/`) — cấu trúc từng trang | Nội dung thật trong 9 kho đó |
+| **10 khuôn kho** (`khuon/`) — cấu trúc từng trang | Nội dung thật trong 10 kho đó |
 
 **Vì sao tách như vậy:** luật nghề thì ai viết cũng dùng chung, nên nó đi kèm skill. Còn giọng và chuyện là **của riêng bạn** và bạn sẽ sửa liên tục — chép chúng vào skill là có hai bản, và bản trong skill sẽ âm thầm lạc hậu.
 
-⚡ **`khuon/` là KHUÔN, không phải nội dung.** Vai này mang theo cấu trúc của 9 trang nó cần, rồi dựng chúng trong `wiki/` của bạn ở lần chạy đầu — xem mục ngay dưới. Bộ khung nền **cố ý không tạo sẵn** chúng, kể cả file rỗng.
+⚡ **`khuon/` là KHUÔN, không phải nội dung.** Vai này mang theo cấu trúc của 10 trang nó cần, rồi dựng chúng trong `wiki/` của bạn ở lần chạy đầu — xem mục ngay dưới. Bộ khung nền **cố ý không tạo sẵn** chúng, kể cả file rỗng.
 
 🚫 **Đừng viết bài bằng giọng Tô Hải Đoàn.** Skill này dạy *nghề*, không phát *giọng*. Giọng của bạn nằm ở `wiki/voice-profile.md` — chưa có thì đi qua Cửa vào ngay dưới đây.
 
@@ -73,6 +73,7 @@ Bảy kho này **không bao giờ xong** — chúng dày lên theo thời gian. 
 | `hook-library` | Trống lúc đầu là đúng. Nó lấp ngược từ hook đã đăng + số thật | `khuon/hook-library.md` |
 | `content-library` | Bài đã đăng, gom dần | `khuon/content-library.md` |
 | `audience-insights` | Comment/inbox thật của khán giả, **nguyên văn** | `khuon/audience-insights.md` |
+| `so-lieu-chuan` | Con số thành tích **kèm nhãn ai sở hữu**. Hỏi: *"Những con số nào bạn được phép nói ra, và số nào là của người khác?"* | `khuon/so-lieu-chuan.md` |
 
 ### Ba luật của bước dựng này
 
@@ -235,7 +236,7 @@ Bài hay dựng quanh **bằng chứng thật**, không dựng quanh một luậ
 | # | Loại | Kho trong bộ não của bạn |
 |---|---|---|
 | 1 | Trải nghiệm cá nhân | `wiki/experiences-library.md` |
-| 2 | Số liệu / nghiên cứu | *(tự tra, phải có nguồn)* |
+| 2 | Số liệu / nghiên cứu | *(tự tra, phải có nguồn)* — track record của chính người dùng thì **bắt buộc** lấy từ `wiki/so-lieu-chuan.md` |
 | 3 | Case ngoài có nguồn | `wiki/quoted-authority.md` nếu đã dựng |
 | 4 | Quy trình minh bạch | *(kể cách bạn làm)* |
 | 5 | Thẩm quyền được trích dẫn | `wiki/quoted-authority.md` |
@@ -247,6 +248,24 @@ Bài hay dựng quanh **bằng chứng thật**, không dựng quanh một luậ
 Một bài có thể mở bằng trích dẫn của một tác giả (Loại 5), chứng minh bằng case của chính bạn (Loại 1), chốt bằng một con số đối chứng (Loại 6) — không có gì sai.
 
 **Lõi phân biệt của bài vẫn phải là của bạn** — chuyện mượn là thứ *đỡ* luận điểm, không phải thứ *thay* lõi. Một bài toàn chuyện người khác là bài ai cũng viết được.
+
+### 🔴 Bài có CON SỐ THÀNH TÍCH → đọc `wiki/so-lieu-chuan.md` TRƯỚC, không có ngoại lệ
+
+Đây là **nguồn duy nhất** cho mọi con số track record. Con số không có trong đó thì **hỏi, đừng suy ra** — kể cả khi bạn thấy nó trong một bài cũ của chính người dùng.
+
+⚠️ **Trang đó không phải danh sách số. Nó là danh sách LUẬT gắn với từng số** — số này phải ghi kèm nhãn gì, số kia cấm dùng, hai số kia cấm cộng lại. Đọc lướt lấy con số rồi bỏ qua luật của nó là dùng sai theo đúng cách trang đó sinh ra để chặn.
+
+**Ba kiểu sai, xếp theo độ khó bắt:**
+
+| | Kiểu | Vì sao lọt |
+|---|---|---|
+| dễ | **Bịa số** | Luật cấm bịa ở Bước 1 và Bước 6 bắt được |
+| khó | **Số thật, sai chủ** | Nó **có thật** — đọc trôi chảy, có bối cảnh, có cả nguồn. Không phép kiểm nào bắt được. Chỉ có câu hỏi *"số này của ai"* bắt được |
+| khó nhất | **Tiếng vọng của chính kho** | Người dùng nhắc lại một con số họ nghe ở đâu đó, mà nguồn gốc của nó chính là kho này. Nghe như xác nhận mới. Và tiếng vọng hay **tam sao** — sai đơn vị, đổi mốc thời gian |
+
+⚡ **Phép kiểm rẻ nhất, chạy trước khi viết số nào: `grep` con số đó trong `wiki/`.** Có sẵn trong kho thì **bản trong kho thắng**, kể cả khi bản người dùng vừa nói nghe ấn tượng hơn.
+
+🚫 **Chưa có `so-lieu-chuan.md` thì đừng viết con số thành tích nào.** Nói thẳng: *"Bài này cần con số track record, mà kho chưa có bộ số liệu chuẩn. Cho tôi các con số kèm nguồn và ai sở hữu chúng, tôi dựng trang đó trước rồi viết."* Viết đại một con số nghe hợp lý là kiểu hỏng đắt nhất ở đây — nó ra ngoài dưới danh nghĩa thành tích của người dùng.
 
 ### Cách chọn — đi ngược, không đi xuôi
 
