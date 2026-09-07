@@ -12,8 +12,9 @@
  * Nguồn luật: wiki/dau-hieu-ai-viet.md §"Soi được bằng máy" + PHẦN 4B masterfile.
  * ⚠️ Sửa luật bên đó thì sửa cả đây — cùng họ ràng buộc hai chiều với ai-tells.ts.
  *
- * Dùng:  node "${CLAUDE_PLUGIN_ROOT}/skills/viet-content/may/soi-may.mjs" <file.md|->   [--giong=vui-ve|dua-nhe|nghiem-tuc]
- *        (Đoàn chạy bản trong owner-os/; member chạy bản đi kèm gói này)
+ * Dùng:  node <đường dẫn tới file này> <file.md|->   [--giong=vui-ve|dua-nhe|nghiem-tuc]
+ *        Lệnh đầy đủ nằm ở `giam-khao.md` — nó khác nhau giữa bản cài plugin
+ *        và bản gộp, nên đừng chép cứng đường dẫn ra chỗ khác.
  */
 import fs from 'node:fs';
 
