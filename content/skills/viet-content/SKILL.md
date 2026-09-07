@@ -5,7 +5,7 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 
 > 🧩 **Vai trong đội nhân sự A.I: Content.** Có `/tong-giam-doc` trong máy thì nó giao việc *viết bài, kịch bản, ý tưởng, hook* xuống đây. Không có cũng chạy được — gõ thẳng `/viet-content`, vai này đứng một mình đủ.
 >
-> 🧱 **Vai này chạy TRÊN một cái nền, không thay được nền.** Nền là bộ khung `second-brain-file-ai` — nó dựng `wiki/` và giữ `/nap-kho`, đường ghi duy nhất vào bộ não. Chưa có nền thì Cửa vào bên dưới sẽ bắt gặp một `wiki/` trống và nói thẳng ra, chứ không viết bừa.
+> 🧱 **Vai này chạy TRÊN một cái nền, không thay được nền.** Nền là bộ khung `nhan-su-thu-thu` — nó dựng `wiki/` và giữ `/nap-kho`, đường ghi duy nhất vào bộ não. Chưa có nền thì Cửa vào bên dưới sẽ bắt gặp một `wiki/` trống và nói thẳng ra, chứ không viết bừa.
 
 # Viết content — phương pháp Tô Hải Đoàn
 
@@ -35,7 +35,7 @@ description: Dùng khi bạn nhờ viết hoặc xử lý nội dung đăng ra n
 
 > Chạy **đúng một lần**, ngay lượt đầu sau khi cài. Nhận ra bằng: `wiki/voice-profile.md` chưa tồn tại.
 >
-> Nền (`second-brain-file-ai`) **cố ý không tạo sẵn** mấy trang này, kể cả file rỗng — vì nó không dựng nổi chúng, và một vỏ rỗng thì vai này vẫn phải mở ra đọc mới biết có gì bên trong. Nên việc dựng là của vai này.
+> Nền (`nhan-su-thu-thu`) **cố ý không tạo sẵn** mấy trang này, kể cả file rỗng — vì nó không dựng nổi chúng, và một vỏ rỗng thì vai này vẫn phải mở ra đọc mới biết có gì bên trong. Nên việc dựng là của vai này.
 
 ### Nói trước bạn sắp mất bao lâu, rồi mới hỏi
 
@@ -443,7 +443,7 @@ trang-thai: nhap            # nhap | da-soi | da-dang
 
 ## Liên quan
 
-**Có sẵn trong nền** (`second-brain-file-ai`):
+**Có sẵn trong nền** (`nhan-su-thu-thu`):
 
 `/onboard` — dựng bộ não lần đầu nếu `wiki/` còn trống · `/nap-kho` — đường duy nhất ghi vào bộ não · `/kiem-chung` — soi bộ não sau mỗi lần nạp khối lớn · `/kham-benh` + `/tong-giam-doc` — soi bạn đang tắc ở khâu nào rồi chốt việc của tháng.
 

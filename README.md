@@ -29,7 +29,7 @@ Xong thì gõ `/` sẽ thấy `/viet-content`.
 Vai này **đọc** bộ não thứ 2 của bạn, nó không tự dựng ra bộ não đó. Nền là bộ khung riêng:
 
 ```bash
-git clone https://github.com/creator-ceo/second-brain-file-ai.git
+git clone https://github.com/creator-ceo/nhan-su-thu-thu.git
 ```
 
 Mở Claude Code trong thư mục vừa clone, nhắn `bắt đầu`, trả lời phỏng vấn — bạn có `wiki/` với giọng văn, kho chuyện, chân dung khách của bạn. Nền cũng giữ `/nap-kho`, **đường ghi duy nhất** vào bộ não.
@@ -88,10 +88,12 @@ Nó không im lặng viết một bài trơn tru bằng trí nhớ chung chung r
 
 Sáu vai nhân sự A.I. Đây là vai thứ ba, và là vai đầu tiên được đóng gói rời:
 
-| Vai | Trạng thái |
-|---|---|
-| ✍️ **Content** | ✅ kho này |
-| 🎛️ Điều phối · 🎨 Thiết kế · 💰 Bán hàng · 🤝 Chăm sóc · 🔍 Nghiên cứu | ⬜ đang đóng gói |
+| Vai | Kho | Trạng thái |
+|---|---|---|
+| 🧑‍🏫 **Thủ thư** — cái nền, cài trước tiên | `creator-ceo/nhan-su-thu-thu` | ✅ |
+| ✍️ **Content** | `creator-ceo/nhan-su-content` | ✅ **kho này** |
+| 🎛️ Điều phối · 💰 Bán hàng | `nhan-su-dieu-phoi` · `nhan-su-ban-hang` | 🟡 đang đóng gói |
+| 🎨 Thiết kế · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ chưa |
 
 Có `/tong-giam-doc` (nằm trong nền) thì nó tự giao việc viết xuống vai này. Không có cũng không sao — gõ thẳng `/viet-content`, vai này đứng một mình đủ.
 
