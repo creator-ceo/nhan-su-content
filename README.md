@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.5.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.6.0` · 2026-09-07 · giấy phép MIT
 
 ---
 
@@ -95,7 +95,7 @@ Sáu vai nhân sự A.I. Đây là vai thứ ba, và là vai đầu tiên đư�
 | 🎛️ Điều phối · 💰 Bán hàng | `nhan-su-dieu-phoi` · `nhan-su-ban-hang` | 🟡 đang đóng gói |
 | 🎨 Thiết kế · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ chưa |
 
-Có `/tong-giam-doc` (nằm trong nền) thì nó tự giao việc viết xuống vai này. Không có cũng không sao — gõ thẳng `/viet-content`, vai này đứng một mình đủ.
+Có `/dieu-hanh` (nằm trong nền) thì nó tự giao việc viết xuống vai này. Không có cũng không sao — gõ thẳng `/viet-content`, vai này đứng một mình đủ.
 
 ---
 
