@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.7.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.8.0` · 2026-09-07 · giấy phép MIT
 
 ---
 
@@ -55,11 +55,23 @@ Vẫn chạy, và đây là chỗ dễ hiểu nhầm nhất. Cửa vào đếm b
 
 | Kho có gì | Vai làm gì |
 |---|---|
-| **0–1 file** | không viết. Đưa đúng **một** việc tiếp theo, rồi mới viết |
+| **0–1 file** | **thu trước, rồi viết.** Hỏi từng câu một để lấy chất liệu ngay trong lượt, không đá bạn đi chỗ khác |
 | **2–3 file** | viết, nhưng **nói trước là thiếu gì và vì thế bài sẽ yếu ở đâu** |
 | **đủ 4 file** | chạy thẳng |
 
 Nó không im lặng viết một bài trơn tru bằng trí nhớ chung chung rồi để bạn tưởng đó là giọng mình.
+
+#### Chưa có cả nền thì sao — vẫn viết được bài hôm nay
+
+Đây là ca hay gặp nhất ở người mới: cài mỗi vai này, chưa clone nền. Vai **không đứng im bảo bạn đi cài nền rồi quay lại**. Nó làm ba bước:
+
+1. **Nói đúng cái giá** — chưa có nền thì `/nap-kho` không tồn tại, nên **không lưu được gì**, đóng chat là mất.
+2. **Hỏi bốn thứ, mỗi lần một câu** — bài cũ *(lấy giọng)* · một chuyện thật của bạn *(lấy bằng chứng)* · khách là ai và sợ gì · niềm tin nào ngược số đông. Đúng bốn thứ cửa vào đếm, chỉ khác là chúng nằm trong hội thoại chứ không nằm trên đĩa.
+3. **Viết bài, rồi nhắc lại thứ sắp mất.**
+
+⚡ **Thiếu thứ nào cũng đi tiếp được.** Bỏ qua bài cũ thì bài ra giọng trung tính — và nó **nói ra điều đó**, không giấu.
+
+Cài nền là để bốn thứ trên thành file, và mọi bài sau tự đọc chúng mà không phải kể lại.
 
 ---
 
