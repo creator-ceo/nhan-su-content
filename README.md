@@ -4,7 +4,7 @@
 
 Một plugin Claude Code. Cài xong bạn có `/viet-content`: viết bài, đặt hook, ra ý tưởng, viết lại, tái sử dụng, kịch bản video ngắn/dài, mindmap — **chạy trên bộ não thứ 2 của chính bạn**, không phải của tôi.
 
-> **Phiên bản:** `1.12.0` · 2026-09-07 · giấy phép MIT
+> **Phiên bản:** `1.12.1` · 2026-09-15 · giấy phép MIT
 
 ---
 
@@ -105,9 +105,12 @@ Sáu vai nhân sự A.I. Đây là vai thứ ba, và là vai đầu tiên đư�
 | Vai | Kho | Trạng thái |
 |---|---|---|
 | 🧑‍🏫 **Thủ thư** — cái nền, cài trước tiên | `creator-ceo/nhan-su-thu-thu` | ✅ |
+| 🎛️ **Điều phối** *(Tổng giám đốc)* | `creator-ceo/nhan-su-dieu-phoi` | ✅ |
 | ✍️ **Content** | `creator-ceo/nhan-su-content` | ✅ **kho này** |
-| 🎛️ Điều phối · 💰 Bán hàng | `nhan-su-dieu-phoi` · `nhan-su-ban-hang` | 🟡 đang đóng gói |
-| 🎨 Thiết kế · 🤝 Chăm sóc · 🔍 Nghiên cứu | — | ⬜ chưa |
+| 💰 **Bán hàng** | `creator-ceo/nhan-su-ban-hang` | ✅ |
+| 🔍 **Nghiên cứu** | `creator-ceo/nhan-su-nghien-cuu` | 🟡 bản tạm |
+| 🎨 **Thiết kế** | `creator-ceo/nhan-su-thiet-ke` | 🟡 bản tạm |
+| 🤝 **Chăm sóc** | `creator-ceo/nhan-su-cham-soc` | 🟡 bản tạm |
 
 Có `/dieu-hanh` (nằm trong nền) thì nó tự giao việc viết xuống vai này. Không có cũng không sao — gõ thẳng `/viet-content`, vai này đứng một mình đủ.
 
